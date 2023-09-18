@@ -1,0 +1,23 @@
+{
+  "name": "httprequest",
+  "version": "1.0.0",
+  "description": "A cli to send http-request.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "MIT"
+  ],
+  "author": "QingheLi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "conf": "^9.0.2"
+  },
+  "bin": {
+    "httprequest": "index.js"
+  }
+}
