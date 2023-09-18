@@ -6,7 +6,7 @@ A CLI tool for XDU work on How to use asynchronous programming techniques.
 
 Clone the repository:
 
->   git clone xxx
+>   git clone https://github.com/22510/HTTPREQUEST-CLI.git
 
 Install the dependencies:
 
