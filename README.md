@@ -12,7 +12,7 @@ Install the dependencies:
 
 > npm i
 
-Install the package globally on your machiner: (If you don't, you won't be able to use it on the command line)
+Install the package globally on your machine: (If you don't, you won't be able to use it on the command line)
 
 > npm i -g
 
@@ -24,11 +24,13 @@ Install the package globally on your machiner: (If you don't, you won't be able 
 
 For example:
 
-> httpreqeust get
+> httprequest get http://39.101.74.9:8090
+
+> httprequest get https://github.com
 
 2.  Display previously visited urls:
 
-> httprequest list https://www.xidian.edu.cn/xxgk.htm
+> httprequest list
 
 Connections that have been successfully accessed and timed out are displayed.
 
@@ -38,7 +40,7 @@ Connections that have been successfully accessed and timed out are displayed.
 
 I use the open source **conf** package for data saving.
 
-You can modify the storage address in `commands/httpreques.js`. Please see the code comments for details.
+You can modify the storage address in `commands/httprequest.js`. Please see the code comments for details.
 
 2.  Access timeout setting:
 

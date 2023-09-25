@@ -243,6 +243,81 @@
 			"url": "https://www.npmjs.com/package/conf",
 			"timeout": true,
 			"context": "null"
+		},
+		{
+			"url": "https://xxgk.xidian.edu.cn/",
+			"timeout": false,
+			"context": {
+				"date": "Mon, 25 Sep 2023 04:19:57 GMT",
+				"server": "*********",
+				"x-frame-options": "ALLOW-FROM http://aicenter.xidian.edu.cn",
+				"strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+				"last-modified": "Thu, 21 Sep 2023 01:18:04 GMT",
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=600",
+				"expires": "Mon, 25 Sep 2023 04:29:57 GMT",
+				"vary": "Accept-Encoding",
+				"etag": "\"9e1a-605d44385cdc3-gzip\"",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "1; mode=block",
+				"content-length": "7268",
+				"connection": "close",
+				"content-type": "text/html",
+				"content-language": "zh-CN",
+				"set-cookie": "UqZBpD3n3iPIDwJU=v1AKJbQwSD9cj; Expires=Mon, 25-Sep-2023 04:29:57 GMT; Path=/"
+			}
+		},
+		{
+			"url": "https://xxgk.xidian.edu.cn/",
+			"timeout": false,
+			"context": {
+				"date": "Mon, 25 Sep 2023 04:20:41 GMT",
+				"server": "*********",
+				"x-frame-options": "ALLOW-FROM http://aicenter.xidian.edu.cn",
+				"strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+				"last-modified": "Thu, 21 Sep 2023 01:15:41 GMT",
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=600",
+				"expires": "Mon, 25 Sep 2023 04:30:41 GMT",
+				"vary": "Accept-Encoding",
+				"etag": "\"9e1a-605d43b08b5be-gzip\"",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "1; mode=block",
+				"content-length": "7268",
+				"connection": "close",
+				"content-type": "text/html",
+				"content-language": "zh-CN",
+				"set-cookie": "UqZBpD3n3iPIDwJU=v1AqJbQwSDAhb; Expires=Mon, 25-Sep-2023 04:30:42 GMT; Path=/"
+			}
+		},
+		{
+			"url": "http://github.com",
+			"timeout": true,
+			"context": "null"
+		},
+		{
+			"url": "http://39.101.74.9",
+			"timeout": false,
+			"context": {
+				"server": "nginx/1.20.1",
+				"date": "Mon, 25 Sep 2023 04:24:39 GMT",
+				"content-type": "text/html",
+				"content-length": "433",
+				"last-modified": "Sun, 24 Sep 2023 07:49:30 GMT",
+				"connection": "close",
+				"etag": "\"650fea0a-1b1\"",
+				"accept-ranges": "bytes"
+			}
+		},
+		{
+			"url": "http://39.101.74.9:8090",
+			"timeout": false,
+			"context": {
+				"content-type": "text/html",
+				"content-language": "en-US",
+				"content-length": "13839",
+				"connection": "close"
+			}
 		}
 	]
 }

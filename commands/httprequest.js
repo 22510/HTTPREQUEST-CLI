@@ -19,7 +19,7 @@ const cancelToken = axios.CancelToken;
 let cancel;
 
 // 设置请求超时阈值
-let timeoutThreshold = 30;
+let timeoutThreshold = 300;
 
 async function httprequest(url) {
     try {
@@ -55,7 +55,7 @@ async function httprequest(url) {
                     cancel('Request timed out');
                 }
             }
-        }, 500);
+        }, 100);
 
         // 发起 GET 请求（同时启动计时器）
         // 发起 GET 请求，并传递取消令牌
@@ -68,6 +68,9 @@ async function httprequest(url) {
         if (response.status === 200) {
             console.log(
                 chalk.green.bold('\nget ' + url + ' 成功.')
+            );
+            console.log(
+                chalk.greenBright(response.data)
             );
             requestResults.push({
                 url: url,
